@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=satisfy&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #fff;
+}
+
+.bg-solid {
+    background-color: #f8f9fa;
+    height: 8vh;
+}
+
+.container {
+    margin: auto;
+    max-width: 999px;
+}
+
+.float-end {
+    line-height: 3;
+    float: right;
+}
+
+.fa-solid {
+    font-size: 1.2rem;
+    margin: 0px 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 12vh;
+    position: sticky;
+    z-index: 999;
+    /* background-color: #f8f9fa; */
+
+}
+
+.container-x {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    width: 792px;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    /* padding: 0%; */
+}
+
+.nav-links {
+    font-size: 1rem;
+    padding: 0px 20px;
+}
+
+.plugins {
+    display: inherit;
+
+}
+
+.plugins>a {
+    background-color: rgb(255, 131, 15);
+    border: none;
+    padding: 10px 10px 6px 14px;
+    margin: 0px 5px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.background-over {
+    background-color: #e67d13c5;
+}
+
+/* .absolute {
+    position: absolute;
+    z-index: 1000;
+} */
+
+.section-I {
+    background-image: url(../Images/gharpar-mani-pedi-service-1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: .8;
+
+}
+
+.first-hd {
+    background-color: #fff;
+    color: #1c1b1bdf;
+    padding: 9px 20px;
+    text-transform: uppercase;
+}
+
+.first-hd>h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.second-hd {
+    background-color: #ffffffbf;
+    padding: 10px 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.second-hd>h2 {
+    font-weight: 200;
+}
+
+.last-sec>a>input {
+    color: #fff;
+    font-size: 21px;
+    padding: 12px 20px;
+    border: none;
+}
+
+.btn-x {
+    cursor: pointer;
+    background-color: #2c2929;
+}
+
+.btn-x:hover {
+    background-color: #000000;
+}
+
+.btn-xx {
+    cursor: pointer;
+    background-color: #fc7e08;
+}
+
+.btn-xx:hover {
+    background-color: #000000;
+}
+
+.mid-section {
+    text-align: center;
+    height: 40vh;
+}
+
+.heading-002 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #fc7e08;
+    font: 2.5em sans-serif;
+
+}
+
+.para-I {
+    margin: auto;
+    max-width: 900px;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+/*============================== Section-II =========================*/
+.section-II {
+    /* width: 50%; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    background-color: #f8f9fa;
+    padding: 50px;
+
+}
+
+.h-003 {
+    text-align: center;
+    font-size: 2rem;
+    color: #fc7e08;
+    font: 2.5em sans-serif;
+    letter-spacing: 2px;
+    margin: 30px 0px;
+}
+
+.content-abs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.content-abc {
+    width: 30%;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.content-abc>img {
+    width: 340px;
+    height: 230px;
+}
+
+.cart {
+    box-shadow: #2d2d2d 1px 3px 7px -6px;
+    position: relative;
+    margin: 10px 10px;
+    height: 34vh;
+    width: 24vw;
+    bottom: 50px;
+    left: 12px;
+    text-align: center;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cart>p {
+    text-align: center;
+    margin: 5px 30px;
+    /* width: 50%; */
+
+}
+
+.h-004 {
+    color: #fc7e08;
+    font-weight: normal;
+}
+
+.cart>p {
+    font-size: 14px;
+    margin: 20px;
+}
+
+button {
+    font-size: 16px;
+    margin: 5px 0px;
+    background-color: #35363e;
+    color: #fff;
+    padding: 9px 10px 6px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: #fc7e08;
+}
+
+.section-III {
+    background-color: #fdc99b;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.side-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55vh;
+    margin: 40px 0px;
+}
+
+.italic-big-text {
+    font-size: 4em;
+    font-style: italic;
+    font-family: satisfy, sans-serif;
+    margin-right: 10px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .4);
+}
+
+.heart {
+    margin-top: 40px;
+    width: 70px;
+    height: 80px;
+    float: right;
+    fill: crimson
+}
+
+.side-content>h3 {
+    font-size: 22px;
+}
+
+.layout-wksc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.my-6hd {
+    line-height: 5;
+    text-align: center;
+}
+
+.my-6hd>h2 {
+    color: #fc7e08;
+    font-size: 2em;
+    letter-spacing: 1px;
+
+}
+
+.img-cont>img {
+    width: 340px;
+    height: 260px;
+}
+
+.img-cont {
+    text-align: center;
+}

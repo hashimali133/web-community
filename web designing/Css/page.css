@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+}
+
+.main-container {
+    /* display: flex; */
+    flex-direction: column;
+    position: absolute;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    background-color: lightgreen;
+    padding: 0px 20px;
+
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#btn {
+    font-size: 16px;
+    border: none;
+    background-color: #4752e5;
+    padding: 5px 16px;
+    text-transform: capitalize;
+    color: #ffff;
+    cursor: pointer;
+}
+
+#search {
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.navbar {
+    height: 8vh;
+    background-color: #090808d3;
+
+}
+
+.navlinks {
+    height: 8vh;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.content {
+    display: flex;
+}
+
+.content>div {
+    padding: 0px 7px;
+}
+
+.penguin-content {
+    border-right: 2px solid #808080bd;
+    border-left: 2px solid #808080bd;
+    padding: 0px 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h4 {
+    position: absolute;
+    top: 22vh;
+}
+
+.koala-txt {
+    left: 18vw;
+
+}
+
+.txt-peng {
+    right: 36vw;
+
+}
+
+.txt-tulip {
+    right: 5vw;
+
+}
+
+
+p {
+    text-align: left;
+    float: right;
+}
+
+.footer {
+    background-color: #cfcacab1;
+}
+
+.ft {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+
+}
+
+.ft-1 {
+    text-align: center;
+    height: 6vh;
+    background-color: #090808d3;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.ft-image>img {
+    border-radius: 99px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.penguin {
+    background-image: url(hubert-neufeld-j-udI4zim2E-unsplash.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 99px;
+    text-align: center;
+    opacity: .3;
+    font-size: 21px;
+    font-weight: 700;
+    position: relative;
+}
+
+h3 {
+    position: absolute;
+    /* padding-top: 40px; */
+    /* margin-left: 30px; */
+    bottom: 100px;
+    left: 34%;
+    text-align: center;
+}

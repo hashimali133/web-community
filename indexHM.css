@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* CSS- */
+
+.background-content {
+    background-image: url(slide1.webp);
+    background-size: cover;
+    background-position: 50%;
+    visibility: visible;
+    background-repeat: no-repeat;
+    height: 82vh;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: .5s;
+}
+
+.element-container {
+    display: flex;
+}
+
+.form-section {
+    display: flex;
+    width: 35%;
+    height: 82vh;
+    background-color: #26aa09;
+    padding: 0px 20px;
+}
+
+.form-outer-layout {
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.label-content-hide {
+    position: absolute;
+    top: -99999px;
+    left: -99999px;
+}
+
+.heading-section {
+    color: #fff;
+    font-size: 29px;
+    padding-top: 50px;
+    margin-bottom: 24px;
+    /* font-weight: 400; */
+}
+
+.heading-mid-sect {
+    color: #002b95;
+    text-transform: capitalize;
+    font-size: 39px;
+    font-variant: normal;
+    font-stretch: extra-expanded;
+}
+
+.form-body-layout {
+    margin: 0px 20px;
+}
+
+.form-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.form-element-layout {
+    padding: 16px 0px;
+}
+
+.input-widget {
+    height: 40px;
+    width: 164px;
+    font-size: 17px;
+    outline: none;
+    padding: 10px;
+}
+
+.input-name {
+    width: 350px;
+}
+
+#name-element-input {
+    width: 448px;
+}
+
+#element-input {
+    padding: 10px;
+
+}
+
+.input-widget-layout {
+    padding: 0px 10px;
+
+}
+
+#text-area {
+    resize: vertical;
+    font-size: 17px;
+    padding: 9px;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 6vh;
+    margin-top: 10px;
+}
+
+.submit-button {
+    width: 150px;
+    font-size: 19px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #002a95da;
+}
+
+.submit-button:hover {
+    background-color: #dfcdcdda;
+    transition: all .2s ease-out;
+}
+
+/**************** section 3 CSS *************************/
+/*  */
+.section-container-05 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #e7fff2d4;
+}
+
+div.container-text-editor {
+    padding: 20px;
+}
+
+h1.content-heading-title {
+    font-size: 42px;
+    color: #002a95da;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.content-container {
+    margin-bottom: 20px;
+}
+
+p.textarea {
+    padding: 10px 0px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: justify;
+    color: #414141e2;
+}
+
+.image-c99dc {
+    height: 600px;
+}
+
+/* Section-4 */
+/* CSS - Styles */
+
+section.layout-sect {
+    background: #1A62AC;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.content-d-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+div.content-pdd {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+h2.content-heading-title {
+    color: #fff;
+    font-size: 49px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 2px;
+    flex-basis: 70px;
+
+}
+
+/* section-05 */
+/* Style CSS */
+
+.e-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1051px;
+    margin: auto;
+}
+
+.element-esc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.element-elc {
+    display: flex;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.element-edc {
+    margin-bottom: 20px;
+
+}
+
+.content-image-box {
+    display: inline-block;
+    visibility: inherit;
+}
+
+.image-box {
+    text-align: center;
+    border-radius: 100px;
+    transition-duration: 0.7s;
+
+}
+
+.image-box:focus,
+.image-box:hover {
+    position: inherit;
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.element-etc>h3 {
+    font-size: 24px;
+    color: #36da11;
+    font-weight: 500;
+}
+
+.element-etc>p {
+    color: #c7eece;
+    font-size: 17px;
+    margin: 0;
+
+}
+
+.content-ext {
+    line-height: 1;
+
+}
+
+.whole-btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 10px 20px;
+
+}
+
+.fa-greater-than {
+    margin-left: 6px;
+    font-weight: 900;
+}
+
+.whole-btn:focus,
+.whole-btn:hover {
+    color: #26aa09;
+    transition: all .3s ease-out;
+}

@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #eceaeaeb;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.elements {
+    margin: 0px 10vw;
+    padding-bottom: 20px;
+}
+
+.ans {
+    margin-top: 7px;
+    background-color: #fcfc1d76;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    height: 68vh;
+    margin: 0px 24px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 7px -3px #000;
+    cursor: pointer;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-top {
+    /* position: absolute; */
+    width: 95%;
+    margin: 0 auto;
+    height: 35vh;
+    box-shadow: 0px 4px 6px 0px #08080880;
+    background: linear-gradient(25deg, #0468ff93, #a32ee6, #d900ff);
+}
+
+img {
+    width: 340px;
+    height: 200px;
+}
+
+.card-bottom {
+    margin-top: 10px;
+}
+
+.cardB-bottom {
+    text-align: start;
+    line-height: 1.1;
+}
+
+.card-bottom,
+.cardA-bottom,
+.cardB-bottom {
+    padding: 0px 10px;
+}
+
+.f-heading {
+    padding-top: 10px;
+    color: #fff;
+    font-size: 2.4rem;
+}
+
+.heading-2 {
+    font-size: 21px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.heading-3 {
+    font-size: 1.4em;
+    color: #181212ce;
+}
+
+.heading-4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+
+.heading-5 {
+    font-size: 1.2em;
+    color: #181212ce;
+    margin-bottom: 5px;
+
+}
+
+.dect {
+    text-decoration: none;
+}
+
+.fa-brands {
+    margin: 12px 20px;
+}
+
+.fa-twitter {
+    font-size: 21px;
+    color: #00a6ff;
+}
+
+.fa-facebook {
+    font-size: 21px;
+    color: #4747ff;
+}
+
+.fa-linkedin {
+    font-size: 21px;
+    color: #10107d;
+}
+
+.fa-html5,
+.fa-css3-alt,
+.fa-js {
+    color: #ffffff;
+    font-size: 1.2em;
+    background-color: #d900ff00;
+    box-shadow: 0px 2px 8px 0px #0000006d;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+input {
+    margin: 10px 0px;
+    border: none;
+    background-color: #4747ff;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 3px 15px;
+    border-radius: 7px;
+    text-transform: capitalize;
+
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        div.layout {
+            height: 60vh;
+        }
+
+        .image-gallery {
+            width: 180px;
+            margin: 5px;
+            float: left;
+            border: 2px solid #777;
+            box-shadow: #000 11px 10px 7px -4px;
+        }
+
+        .image-gallery:hover {
+            border: 2px solid #000;
+        }
+
+        div.image-gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .desc {
+            text-align: center;
+            padding: 15px;
+        }
+
+        /*
+        Task 2 Image-Gallery 
+        Section-I  Style
+        
+        */
+        .section-I {
+            max-width: 100%;
+            padding: 50px 50px;
+            min-height: 100vh;
+            margin: 20px 0px;
+            background-color: #322928;
+        }
+
+        .section-I h1 {
+            /* vertical-align: 30px; */
+            text-align: center;
+            color: #fff;
+            letter-spacing: 2px;
+            font-size: 2rem;
+
+
+        }
+
+        div.layout-I {
+            min-height: 80vh;
+            margin: 20px;
+            background-color: #433f3e;
+            padding: 26px;
+
+        }
+
+        div.gallery-I {
+            background-color: #fff;
+            margin: 8px;
+            padding: 6px;
+            width: 180px;
+            border: 2px solid #000;
+            float: left;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .gallery-I img {
+            width: 100%;
+            height: auto;
+
+        }
+
+        .desc-I {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        #keegan {
+            position: relative;
+            left: 9%;
+            top: 18vh;
+            z-index: 9;
+            margin: 0;
+
+        }
+
+        /*
+        Task 2 Image-Gallery 
+        Section-I  Style
+        
+        */
+    </style>
+</head>
+
+<body>
+    <div class="layout">
+        <div class="image-gallery">
+            <a href="https://www.w3schools.com/css/img_5terre.jpg"
+                target="_blank">
+                <img src="https://www.w3schools.com/css/img_5terre.jpg"
+                    alt="landscape.img">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+        <div class="image-gallery">
+            <a href="https://www.w3schools.com/css/img_forest.jpg"
+                target="_blank">
+                <img src="https://www.w3schools.com/css/img_forest.jpg"
+                    alt="landscape.img">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+        <div class="image-gallery">
+            <a href="https://www.w3schools.com/css/img_lights.jpg"
+                target="_blank">
+                <img src="https://www.w3schools.com/css/img_lights.jpg"
+                    alt="landscape.img">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+        <div class="image-gallery">
+            <a href="https://www.w3schools.com/css/img_mountains.jpg"
+                target="_blank">
+                <img src="https://www.w3schools.com/css/img_mountains.jpg"
+                    alt="landscape.img">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+        <div class="image-gallery">
+            <a href="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                target="_blank">
+                <img src="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                    alt="landscape.img">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+        <div class="image-gallery">
+            <a href="../Images/justin-ha-bxKKZNNsqTg-unsplash.jpg"
+                target="_blank">
+                <img src="../Images/justin-ha-bxKKZNNsqTg-unsplash.jpg"
+                    alt="landscape.img">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- 
+        Task 2 Image Gallery
+     -->
+    <section class="section-I">
+        <h1>Image Gallery</h1>
+        <div class="layout-I">
+            <div class="gallery-I">
+                <a href="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                    target="_blank">
+                    <img src="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                        alt="img">
+                </a>
+                <div class="desc-I">How to use CSS media queries to create a
+                    responsive image gallery that will look good on desktops,
+                    tablets and smart phones.
+
+                </div>
+            </div>
+            <div class="gallery-I">
+                <a href="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                    target="_blank">
+                    <img src="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                        alt="img">
+                </a>
+                <div class="desc-I">How to use CSS media queries to create a
+                    responsive image gallery that will look good on desktops,
+                    tablets and smart phones.
+
+                </div>
+            </div>
+            <div class="gallery-I " id="keegan">
+                <a href="../Images/pexels-greg-gulik-1001435.jpg"
+                    target="_blank">
+                    <img src="../Images/pexels-greg-gulik-1001435.jpg"
+                        alt="img">
+                </a>
+                <div class="desc-I">How to use CSS media queries to create a
+                    responsive image gallery that will look good on desktops,
+                    tablets and smart phones.
+
+                </div>
+            </div>
+            <div class="gallery-I">
+                <a href="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                    target="_blank">
+                    <img src="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                        alt="img">
+                </a>
+                <div class="desc-I">How to use CSS media queries to create a
+                    responsive image gallery that will look good on desktops,
+                    tablets and smart phones.
+
+                </div>
+            </div>
+            <div class="gallery-I">
+                <a href="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                    target="_blank">
+                    <img src="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                        alt="img">
+                </a>
+                <div class="desc-I">How to use CSS media queries to create a
+                    responsive image gallery that will look good on desktops,
+                    tablets and smart phones.
+
+                </div>
+            </div>
+            <div class="gallery-I">
+                <a href="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                    target="_blank">
+                    <img src="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                        alt="img">
+                </a>
+                <div class="desc-I">How to use CSS media queries to create a
+                    responsive image gallery that will look good on desktops,
+                    tablets and smart phones.
+
+                </div>
+            </div>
+            <div class="gallery-I">
+                <a href="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                    target="_blank">
+                    <img src="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                        alt="img">
+                </a>
+                <div class="desc-I">How to use CSS media queries to create a
+                    responsive image gallery that will look good on desktops,
+                    tablets and smart phones.
+
+                </div>
+            </div>
+            <div class="gallery-I">
+                <a href="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                    target="_blank">
+                    <img src="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                        alt="img">
+                </a>
+                <div class="desc-I">How to use CSS media queries to create a
+                    responsive image gallery that will look good on desktops,
+                    tablets and smart phones.
+
+                </div>
+            </div>
+            <div class="gallery-I">
+                <a href="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                    target="_blank">
+                    <img src="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                        alt="img">
+                </a>
+                <div class="desc-I">How to use CSS media queries to create a
+                    responsive image gallery that will look good on desktops,
+                    tablets and smart phones.
+
+                </div>
+            </div>
+
+            <div class="gallery-I">
+                <a href="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                    target="_blank">
+                    <img src="../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg"
+                        alt="img">
+                </a>
+                <div class="desc-I">How to use CSS media queries to create a
+                    responsive image gallery that will look good on desktops,
+                    tablets and smart phones.
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

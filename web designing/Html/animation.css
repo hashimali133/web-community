@@ -1,0 +1,66 @@
+body {
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+div {
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    background-color: yellow;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px 0px;
+    line-height: 2em;
+    text-align: center;
+    animation: anim 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: calc(5);
+}
+
+.div3 {
+    animation-timing-function: linear;
+}
+
+.div4 {
+    animation-timing-function: ease;
+}
+
+.div5 {
+    animation-timing-function: ease-in;
+}
+
+.div6 {
+    animation-timing-function: ease-out;
+}
+
+.div7 {
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes anim {
+    from {
+        background-color: yellow;
+    }
+
+    to {
+        background-color: rgb(14, 253, 153);
+    }
+
+    0% {
+        background-color: aqua;
+        right: 0px;
+        left: 0px;
+    }
+
+    50% {
+        left: 500px;
+        background-color: yellow;
+    }
+
+    100% {
+        left: 0px;
+    }
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in CSS</title>
+    <style>
+        .heading {
+            color: blue;
+            font-size: 3em;
+            text-align: center;
+            animation-name: text;
+            animation-duration: 4s;
+
+        }
+
+        @keyframes text {
+
+            0%,
+            10%,
+            100% {
+                width: 0%;
+
+            }
+
+            70%,
+            90% {
+                color: coral;
+                width: 100%;
+            }
+
+        }
+
+
+        .div1 {
+            width: 20vw;
+            height: 200px;
+            background-color: crimson;
+            border: 2px solid black;
+            margin: 30px;
+            position: relative;
+            animation-name: forbes;
+            animation-duration: 4s;
+            animation-delay: .8s;
+            animation-iteration-count: calc(2);
+            animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        }
+
+        @keyframes forbes {
+
+            /* from {
+                background-color: crimson;
+
+            }
+
+            to {
+                background-color: olivedrab;
+            } */
+            0% {
+                background-color: crimson;
+                left: 0px;
+                top: 0px;
+                width: 15%;
+            }
+
+            25% {
+                background-color: mediumspringgreen;
+                left: 200px;
+                top: 0px;
+                width: 30%;
+            }
+
+            50% {
+                background-color: saddlebrown;
+                left: 200px;
+                top: 250px;
+                width: 40%;
+            }
+
+            75% {
+                background-color: yellow;
+                left: 0px;
+                top: 250px;
+                width: 60%;
+            }
+
+            100% {
+                background-color: maroon;
+                top: 0px;
+                left: 0%;
+                width: 80%;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="animation.css">
+</head>
+
+<body>
+    <h1>Animations</h1>
+    <div class="div1"></div>
+    <h2>Animations</h2>
+    <div class="div3">Himayat</div>
+    <div class="div4">Fasih</div>
+    <div class="div5">Hashim</div>
+    <div class="div6">Amaal</div>
+    <div class="div7">Azam</div>
+    <!-- 
+    Animation with Text
+ -->
+
+    <h2 class="heading">
+        Muhammad
+    </h2>
+
+</body>
+
+</html>

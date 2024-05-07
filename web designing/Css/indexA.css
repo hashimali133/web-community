@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url(../Images/jackson-sophat-wUbNvDTsOIc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    position: absolute;
+    margin: 0px 50px;
+    top: 0;
+}
+
+.bg-color {
+    position: relative;
+    background-color: #060606;
+    opacity: .5;
+    height: 110vh;
+}
+
+h2 {
+    color: #6affb7cb;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+}
+
+
+.s-container {
+    top: 50%;
+    left: 5vw;
+    position: absolute;
+    display: flex;
+    padding-top: 45px;
+    align-items: center;
+    max-width: 90%;
+}
+
+p {
+    text-align: inherit;
+    margin: 0px 16px;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #f5f3f3cb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

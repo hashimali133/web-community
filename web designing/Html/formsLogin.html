@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in Html</title>
+    <style>
+        body {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .border {
+            height: fit-content;
+            width: 36vw;
+            margin: auto;
+            margin-top: 10vh;
+            max-width: 1168px;
+            border: 2px solid #000000;
+            line-height: 1.3;
+            background-color: #71ad36f4;
+            padding: 20px;
+            font-size: 21px;
+            color: #fff;
+            border: none;
+
+        }
+
+        .user {
+            margin: 0px 20px;
+
+        }
+
+        .usertxt {
+            height: 4vh;
+            width: 16vw;
+            margin: 5px 0px;
+        }
+
+        .password {
+            margin: 0px 22px;
+
+        }
+
+        .password-in {
+            width: 16vw;
+            height: 4vh;
+            margin-bottom: 5px;
+        }
+
+        .city {
+            margin-left: 15px;
+            float: left;
+        }
+
+        .city-in {
+            width: 16vw;
+            margin-left: 6px;
+            height: 4vh;
+            margin-bottom: 5px;
+        }
+
+        .web {
+            margin-left: 15px;
+        }
+
+        #webserver {
+            width: 14vw;
+            margin-left: 12px;
+        }
+
+        .role {
+            margin: 32px 15px;
+            float: left;
+        }
+
+
+
+        .single {
+            margin: 29px 15px;
+            float: left;
+        }
+
+        .checkbox {
+            text-align: start;
+        }
+
+        .btns {
+            text-align: center;
+            margin: 10px 0px;
+        }
+
+        input {
+            outline: none;
+            font-size: 16px;
+            padding-left: 10px;
+        }
+
+        #webserver {
+            height: 4vh;
+            width: 30%;
+        }
+
+        .btns {
+            text-align: center;
+        }
+
+        .btn {
+            border-radius: 16px;
+            width: 8vw;
+            height: 6vh;
+            background-color: #4023feaa;
+            border: none;
+            margin: 0px 5px;
+            color: #fff;
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="border">
+        <form action="action/php" method="get">
+            <label for="username" class="user">Username:</label>
+            <input type="text" name="username" id="username" class="usertxt" autocomplete="off"
+                placeholder="Username"><br>
+            <label for="psd" class="password">Password:</label>
+            <input type="password" name="password" class="password-in" id="psd" placeholder="Password"><br>
+            <label for="city" class="city">City of <br> Employment:</label><br>
+            <input type="text" name="city" id="city" class="city-in" placeholder="City"><br>
+            <label for="webserver" class="web">Web Server:</label>
+            <select name="webserver" id="webserver">
+                <option value="" class="company">-choose a server-</option>
+                <option value="">Starlink</option>
+                <option value="">Tesla</option>
+                <option value="">Apple</option>
+                <option value="">Google</option>
+            </select><br>
+            <label class="role">Please Specify <br> your role:</label><br>
+            <input type="radio" name="radio" id="radio">
+            <label class="admin lab">Admin</label><br>
+            <input type="radio" name="radio" id="radio">
+            <label class="engineer lab">Engineer</label><br>
+            <input type="radio" name="radio" id="radio">
+            <label class="manager lab">Manager</label><br>
+            <input type="radio" name="radio" id="radio">
+            <label class="guest lab">Guest</label><br>
+            <label class="single">Single sign-on <br> the following:</label><br>
+            <input type="checkbox" name="checkbox" class="checkbox">
+            <label class="mail">Mail</label><br>
+            <input type="checkbox" name="checkbox" class="checkbox">
+            <label class="payroll">Payroll</label><br>
+            <input type="checkbox" name="checkbox" class="checkbox">
+            <label class="self-service">Self-service</label><br>
+            <div class="btns">
+                <input type="button" value="login" class="login btn">
+                <input type="button" value="Reset" class="reset btn">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
